@@ -1,7 +1,7 @@
 Scene {
   Param {
     id: qParam
-    title: "q"; min: 2; max: 15
+    title: "q"; min: 4; max: 25
   }
 
   Text {
