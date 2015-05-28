@@ -2,6 +2,9 @@ Scene {
   Spheres {
     positions: [0,0,0, 1,1,1, 2,2,2, 1,2,3 ]
     color: [0,1,1]
-    radius: 2
+    radius: aa.value/10
+  }
+  Param {
+    id:aa
   }
 }
