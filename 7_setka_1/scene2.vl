@@ -45,7 +45,9 @@ Scene {
       Param {
         text: "Прозрачность блока "+index
         id: op
-        property var tag: "right"
+        //property var tag: "right"
+        x: 500
+        y: 100 + index*80
         value: 100
         color: pt.color
         Component.onCompleted: thescene.refineLater() 
