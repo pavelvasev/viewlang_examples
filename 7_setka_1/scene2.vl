@@ -43,9 +43,9 @@ Scene {
         id: pt
       }
       Param {
-        text: "Opacity zone "+index
+        text: "Прозрачность блока "+index
         id: op
-        property var tag: "left"
+        property var tag: "right"
         value: 100
         color: pt.color
         Component.onCompleted: thescene.refineLater() 
