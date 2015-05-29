@@ -81,12 +81,12 @@ SceneObjectThreeJs { // используем спец. базовый класс
       
       if (center) {
         this.sceneObject.position.fromArray( center ); 
-        console.log( "setted center",this.sceneObject.position);
+        //console.log( "setted center",this.sceneObject.position);
       }
 
       threejs.scene.add( this.sceneObject );
       make3dbase();
-      console.log("make3d finished");
+      //console.log("make3d finished");
     }
     
     function clear() {
