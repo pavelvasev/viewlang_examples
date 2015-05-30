@@ -12,7 +12,7 @@ Scene  {
     max: 15
     
     value: q
-    onChanged: { q=newvalue; event.accepted=true; }
+    onValueChanged: { q=value; }
   }
   
 
