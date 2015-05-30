@@ -4,6 +4,7 @@ Scene {
     min: 1
     max: 30
     id: rbigParam
+    value: 15
   }
 
   Param {
