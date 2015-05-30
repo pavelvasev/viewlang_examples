@@ -1,13 +1,9 @@
 Scene {
   Param {
     id: qParam
-    title: "q"; min: 2; max: 15
-    property var tag:"left"
-  }
-
-  Text {
-    text: "I see value="+qParam.value
-    property var tag:"left"
+    text: "Значение Q"
+    min: 2
+    max: 15
   }
 
   Triangles {
