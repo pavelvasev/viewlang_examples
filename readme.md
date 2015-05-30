@@ -1,3 +1,3 @@
 # Примеры сцен Viewlang
 
-Страница для запуска: viewlang.ru
+Страница для запуска: http://viewlang.ru/viewlang/scene.html
