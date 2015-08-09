@@ -1,5 +1,8 @@
 Scene {
-  property var r: rparam.value
+  id: scen
+
+  property var r: rparam.value;
+  
 
   Param {
     text: "radius"
@@ -8,6 +11,8 @@ Scene {
   }
 
   function coord( angle,z ) {
+    //console.log(angle,r, rparam.value);
+    //debugger;
     return [r * Math.cos(angle*0.0174532925), r * Math.sin(angle*0.0174532925), z||0 ]
   }
   
@@ -37,7 +42,9 @@ Scene {
     onAction: {
       var seconds = Math.floor(time);
       //var a = Math.floor(-time*10);
+      //console.log("assign lin positions seconds=",seconds,coord( -seconds*10 ));
       lin.positions = [0,0,0].concat( coord( -seconds*10 ) );
+      //console.log( lin.positions );
     }
   }
 
